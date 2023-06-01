@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BirdWatcher" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/dark_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/light_red</item>
+        <item name="colorSecondaryVariant">@color/mid_red</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/alegreya_sans_sc_medium</item>
+        <!-- Transitions - Holden 29/11 -->
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name="android:windowAllowReturnTransitionOverlap">false</item>
+        <item name="android:windowExitTransition">@transition/fade</item>
+        <item name="android:windowEnterTransition">@transition/fade</item>
+        <item name="android:duration">500</item>
+        <item name="android:windowBackground">@color/dark_red</item>
+    </style>
+</resources>
